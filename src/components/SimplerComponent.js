@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SimplerComponent(props) {
   return (
-    <div>
+    <div onClick={ props.handleClick }>
       I am just happy
     </div>
   )
