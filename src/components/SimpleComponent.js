@@ -10,7 +10,7 @@ export default class SimpleComponent extends React.Component {
 
   handleClick = () => {
     this.setState({
-      mood: "sad" ? "happy" : "sad"
+      mood: "sad"
     })
   }
 
